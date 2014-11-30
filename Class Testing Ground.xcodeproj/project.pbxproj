@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A5EF3C1A15472B00A8B235 /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A5EF3B1A15472B00A8B235 /* LNDog.m */; };
 		06A69BEC1A15198B005DBBA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A69BEB1A15198B005DBBA3 /* Foundation.framework */; };
 		06A69BEE1A15198B005DBBA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A69BED1A15198B005DBBA3 /* CoreGraphics.framework */; };
 		06A69BF01A15198B005DBBA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A69BEF1A15198B005DBBA3 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A5EF3A1A15472B00A8B235 /* LNDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDog.h; sourceTree = "<group>"; };
+		06A5EF3B1A15472B00A8B235 /* LNDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDog.m; sourceTree = "<group>"; };
 		06A69BE81A15198B005DBBA3 /* Class Testing Ground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Class Testing Ground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A69BEB1A15198B005DBBA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		06A69BED1A15198B005DBBA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				06A69BFD1A15198B005DBBA3 /* Main.storyboard */,
 				06A69C001A15198B005DBBA3 /* LNViewController.h */,
 				06A69C011A15198B005DBBA3 /* LNViewController.m */,
+				06A5EF3A1A15472B00A8B235 /* LNDog.h */,
+				06A5EF3B1A15472B00A8B235 /* LNDog.m */,
 				06A69C031A15198B005DBBA3 /* Images.xcassets */,
 				06A69BF21A15198B005DBBA3 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				06A69BFC1A15198B005DBBA3 /* LNAppDelegate.m in Sources */,
 				06A69BF81A15198B005DBBA3 /* main.m in Sources */,
+				06A5EF3C1A15472B00A8B235 /* LNDog.m in Sources */,
 				06A69C021A15198B005DBBA3 /* LNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				06A69C1C1A15198C005DBBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06A69C1D1A15198C005DBBA3 /* Build configuration list for PBXNativeTarget "Class Testing GroundTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				06A69C1F1A15198C005DBBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
